@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#time{
+  font-family: 'Stick', sans-serif;
+  font-size: 60px;
+  @media (min-width: 576px){
+    font-size: 100px;
+  }
+  @media (min-width: 768px){
+    font-size: 130px;
+  }
+  @media (min-width: 992px){
+    font-size: 160px;
+  }
+  @media (min-width: 1200px){
+    font-size: 200px;
+  }
+}
+
+#button{
+  border-radius: 20px;
+  margin: 5px;
+  @media (min-width: 576px){
+    margin: 6px;
+  }
+  @media (min-width: 768px){
+    margin: 7px;
+  }
+  @media (min-width: 992px){
+    margin: 8px;
+  }
+  @media (min-width: 1200px){
+    margin: 10px;
+  }
+
+  #text{
+    font-size: 30px;
+    margin: 1px;
+    @media (min-width: 576px){
+      font-size: 50px;
+      margin: 5px;
+    }
+    @media (min-width: 768px){
+      font-size: 60px;
+      margin: 7px;
+    }
+    @media (min-width: 992px){
+      font-size: 80px;
+      margin: 8px;
+    }
+    @media (min-width: 1200px){
+      font-size: 100px;
+      margin: 10px;
+    }
+  }
+
+  #closeText{
+    font-size: 17px;
+    margin: 5px;
+    @media (min-width: 576px){
+      font-size: 22px;
+      margin: 8px;
+    }
+    @media (min-width: 768px){
+      font-size: 22px;
+      margin: 10px;
+    }
+    @media (min-width: 992px){
+      font-size: 27px;
+      margin: 10px;
+    }
+    @media (min-width: 1200px){
+      font-size: 37px;
+      margin: 10px;
+    }
+  }
+}
+
+#alertText{
+  font-size: 20px;
+  @media (min-width: 576px){
+    font-size: 25px;
+  }
+  @media (min-width: 768px){
+    font-size: 30px;
+  }
+  @media (min-width: 992px){
+    font-size: 30px;
+  }
+  @media (min-width: 1200px){
+    font-size: 30px;
+  }
+}
+
+.close{
+  font-size: 31px;
+  @media (min-width: 576px){
+    font-size: 32px;
+  }
+  @media (min-width: 768px){
+    font-size: 42px;
+  }
+  @media (min-width: 992px){
+    font-size: 42px;
+  }
+  @media (min-width: 1200px){
+    font-size: 42px;
+  }
+}
