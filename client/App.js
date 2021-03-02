@@ -51,8 +51,8 @@ class App extends Component {
       else overDay = false;
       displayTime.hour = Math.floor(Math.floor(Math.floor(difference / 1000) / 60) / 60);
       displayTime.min = Math.floor(Math.floor((difference - (displayTime.hour * 60 * 60 * 1000)) / 1000) / 60);
-      displayTime.sec = Math.floor((difference - (displayTime.min * 60 * 1000)) / 1000);
-      displayTime.mil = difference - displayTime.sec * 1000;
+      displayTime.sec = Math.floor((difference - (displayTime.hour * 60 * 60 * 1000 + displayTime.min * 60 * 1000)) / 1000);
+      displayTime.mil = difference - displayTime.hour * 60 * 60 * 1000 + displayTime.min * 60 * 1000 + displayTime.sec * 1000;
       this.setState({displayTime});
     }, 100)
   }
